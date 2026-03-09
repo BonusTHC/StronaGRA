@@ -1,0 +1,96 @@
+body{
+    font-family: Arial, sans-serif;
+    background:#0d1117; /* kolor jak GitHub dark */
+    color:#e6edf3;
+    padding:40px;
+}
+
+/* kontener wszystkich postaci */
+
+.characters{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+}
+
+/* karta postaci */
+
+.character{
+    display:flex;
+    align-items:center;
+    gap:40px;
+
+    background:#161b22;
+    border:1px solid #30363d;
+    border-radius:10px;
+
+    padding:20px;
+    width:fit-content;
+
+    box-shadow:0 4px 10px rgba(0,0,0,0.4);
+}
+
+/* kontener ikony + nazwy */
+
+.icon-box{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.character-name{
+    font-weight:bold;
+    margin-bottom:10px;
+    font-size:18px;
+}
+
+/* ikona postaci */
+
+.icon{
+    width:120px;
+    height:160px;
+    border:1px solid #30363d;
+    border-radius:6px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    background:#0d1117;
+}
+
+.icon img{
+    max-width:100%;
+    max-height:100%;
+}
+
+/* lista umiejętności */
+
+.skills{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+.skill{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    font-size:16px;
+}
+
+/* kółka */
+
+.circle{
+    width:14px;
+    height:14px;
+    border:2px solid #58a6ff;
+    border-radius:50%;
+}
+
+.staty{
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 300px;
+}
